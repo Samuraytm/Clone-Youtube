@@ -13,7 +13,7 @@ import WatchLater from "./components/WatchLater";
 function App() {
   return (
     <AuthProvider>
-      <ThemeProvider> {/* ← ОБЕРНИ ВСЁ В ТЕМУ */}
+      <ThemeProvider> 
         <AppContext>
           <div className="flex flex-col min-h-screen bg-white dark:bg-black text-black dark:text-white transition-colors duration-300">
             <Header />
